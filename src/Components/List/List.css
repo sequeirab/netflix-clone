@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    transform: translateX();
+    
+}
+
+#slider img {
+    flex: 0 0 10%;
+    transform: scale(0.95);
+}
+
+#slider img:hover {
+    transform: scale(1);
+    transition: all 0.2 ease;
+}
+
+#slider img:first-child {
+    padding-left: 4rem;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.translate {
+    transform: translateX(-100%);
+}
+
+.handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 10;
+    transition: background-color 200 ease;
+}
+
+.handle:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.handle-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.handle-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.caret {
+    font-size: 10rem;
+}
