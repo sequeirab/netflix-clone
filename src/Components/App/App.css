@@ -1,0 +1,4 @@
+.slide-index {
+    display: flex;
+    justify-content: space-between;
+}

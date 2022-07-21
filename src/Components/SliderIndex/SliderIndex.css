@@ -1,0 +1,13 @@
+.container-slider-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.slider-index {
+    background-color: black;
+    width: 1rem;
+    height: 0.5rem;
+    border-radius: .7rem;
+}
